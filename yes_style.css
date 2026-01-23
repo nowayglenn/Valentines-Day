@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+}
+
+.gif_container img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+}
+
+.buttons {
+    margin-top: 20px; 
+}
+
+.giclick-button {
+    font-size: 1.5em;
+    padding: 15px 30px;    
+    background-color: #ff0090;
+    color: white;            
+    border: none;           
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;             
+    max-width: 500px;        
+}
+
+.giclick-button:hover {
+    background-color: #e60081;
+    transform: scale(1.05);
+}
